@@ -74,7 +74,7 @@ jobs:
 
   e2e:
     name: E2E (Playwright)
-    runs-on: ubunut-latest
+    runs-on: ubuntu-latest
     needs: deploy
     container:
       image: mcr.microsoft.com/playwright:v1.54.2-jammy
